@@ -18,24 +18,24 @@
     <div class="profile">
       <img src="images/TOPP.png" alt="TOPP">
       
-      <p class="intro">This program finds the optimal path given a DEM (Digital 
-        Elevation Model) image. It converts DEM to slope first and then outputs 
-        the optimal path in raster and vector (shapefile) format.</p>
+      <p class="intro">This program finds the least cost path using a DEM (Digital 
+        Elevation Model) image. Program converts DEM to slope first and then outputs 
+        the path in raster format. The path can be converted to vector (shapefile) 
+        format with this program.</p>
     </div>
     <hr>
     <div class="skills">
       <h2>Inputs for the program</h2>
-      
-      <ul>DEM file. You can download DEM files 
-        from<a href="https://search.asf.alaska.edu/#/?zoom=3.000&center=-97.494,39.673&dataset=ALOS">this link.</a></ul>
-      <ul>Starting point's XY coordinates and destination point's XY coordinates</ul>
-      
+      <p class="intro">Input parameters are a cost surface raster (e.g. slope) and start and 
+        stop coordinates. You can download DEM files from
+        <a href="https://search.asf.alaska.edu/#/?zoom=3.000&center=-97.494,39.673&dataset=ALOS">asf.alaska.edu</a>
+        or<a href="https://earthexplorer.usgs.gov/">earthexplorer.usgs.gov</a></p>
      <hr>
       <h2>How to run the program</h2>
-      <p class="expertise">Launch the TOPP and then copy and paste starting and destination points 
-        xy coordinates to textboxes in the program. Click Load DEM button and select the DEM file.
-        Then click Create Slope button which creates slope from the DEM. Click Find Path button that 
-        finds the optimal route and saves it in a raster file. Finally, click Path to Shp button in 
+      <p class="expertise">Launch the TOPP and then copy and paste the coordinates of start 
+        and destination points to the textboxes in the program. Click Load DEM button and select the 
+        DEM file. Then click Create Slope button which creates slope from the DEM. Click Find Path button 
+        that finds the least cost path in a raster file. Finally, click Path to Shp button in 
         order to convert raster file to line vector file (ESRI shapefile).
       </p>
     </div>
