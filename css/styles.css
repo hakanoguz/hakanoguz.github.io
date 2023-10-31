@@ -111,7 +111,7 @@ a:hover {
 
 .top-container {
   background-color: #ffffff;
-  position: static;
+  position: relative;
   padding-top: 20px;
 }
 
